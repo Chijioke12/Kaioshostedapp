@@ -1,0 +1,61 @@
+{
+  "name": "Chit Chat",
+  "short_name": "ChitChat",
+  "version": "1.0.51",
+  "type": "web",
+  "description": "Chit Chat lets you connect with friends through private chats, create group chats, and join global chats. Chat with anyone, make new friends, start a romantic relationship, or simply have fun. Find your GF, BF, or just enjoy some masti with your friends! Now you can also send images and voice messages in chats for a more engaging experience.",
+  "start_url": "https://mzubairtalha.github.io/Chit-chat/",
+  "display": "standalone",
+  "background_color": "#F7FCFE",
+  "theme_color": "#F7FCFE",
+  "orientation": "portrait",
+  "scope": "https://mzubairtalha.github.io/Chit-chat/",
+  "default_locale": "en-US",
+  "locales": {
+    "en-US": {
+      "name": "Chit Chat",
+      "description": "Chit Chat lets you connect with friends through private chats, create group chats, and join global chats. Chat with anyone, make new friends, start a romantic relationship, or simply have fun. Find your GF, BF, or just enjoy some masti with your friends! Now you can also send images and voice messages in chats for a more engaging experience."
+    },
+    "ur-PK": {
+      "name": "چیٹ چیٹ",
+      "description": "چیٹ چیٹ آپ کو نجی چیٹس کے ذریعے دوستوں سے جڑنے، گروپ چیٹس بنانے اور عالمی چیٹس میں شامل ہونے کی اجازت دیتا ہے۔ کسی سے بھی بات کریں، نئے دوست بنائیں، رومانوی تعلقات شروع کریں، یا بس مزے کریں۔ اب آپ چیٹس میں تصویریں اور وائس میسجز بھی بھیج سکتے ہیں۔"
+    }
+  },
+  "icons": {
+    "56": "/icon56x56.png",
+    "112": "/icon112x112.png"
+  },
+  "permissions": {
+    "mobiledata": {},
+    "wifidata": {},
+    "systemXHR": {},
+    "desktop-notification": {},
+    "push": {},
+    "serviceWorker": {},
+    "audio-capture": {
+      "description": "Required to record audio messages"
+    },
+    "microphone": {
+      "description": "Required to access the microphone for voice recording"
+    },
+    "audio": {
+      "description": "Required to play audio messages"
+    },
+    "media": {
+      "description": "Required to handle media playback and recording"
+    },
+    "audio-channel-content": {
+      "description": "Required to play audio messages in the content channel"
+    }
+  },
+  "developer": {
+    "name": "M Zubair Talha",
+    "url": "http://zubitechofficial.blogspot.com"
+  },
+  "priority": "high",
+  "fullscreen": true,
+  "cursor": false,
+  "dependencies": {
+    "ads-sdk": "1.5.8"
+  }
+}
